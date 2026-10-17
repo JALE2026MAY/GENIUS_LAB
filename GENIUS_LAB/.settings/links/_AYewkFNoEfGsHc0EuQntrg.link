@@ -1,0 +1,88 @@
+{
+  "itemId" : "_AYewkFNoEfGsHc0EuQntrg",
+  "contextList" : [ {
+    "contextName" : "QA",
+    "repoId" : "_cWWo8FMhEfG4p8ocPLEfRQ",
+    "parameterList" : [ {
+      "id" : "_L6xSkFNpEfGsHc0EuQntrg",
+      "name" : "ENV_NAME"
+    }, {
+      "id" : "_L6xSkVNpEfGsHc0EuQntrg",
+      "name" : "BASE_FILE_PATH"
+    }, {
+      "id" : "_L6xSklNpEfGsHc0EuQntrg",
+      "name" : "DB_HOST"
+    }, {
+      "id" : "_L6xSk1NpEfGsHc0EuQntrg",
+      "name" : "DB_PORT"
+    }, {
+      "id" : "_L6xSlFNpEfGsHc0EuQntrg",
+      "name" : "DB_NAME"
+    }, {
+      "id" : "_L6xSlVNpEfGsHc0EuQntrg",
+      "name" : "DB_USER"
+    }, {
+      "id" : "_L6xSllNpEfGsHc0EuQntrg",
+      "name" : "DB_PASSWORD"
+    }, {
+      "id" : "_L6xSl1NpEfGsHc0EuQntrg",
+      "name" : "PIPELINE_NAME"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_cWWo8FMhEfG4p8ocPLEfRQ",
+    "parameterList" : [ {
+      "id" : "_L6xSmFNpEfGsHc0EuQntrg",
+      "name" : "ENV_NAME"
+    }, {
+      "id" : "_L6xSmVNpEfGsHc0EuQntrg",
+      "name" : "BASE_FILE_PATH"
+    }, {
+      "id" : "_L6xSmlNpEfGsHc0EuQntrg",
+      "name" : "DB_HOST"
+    }, {
+      "id" : "_L6xSm1NpEfGsHc0EuQntrg",
+      "name" : "DB_PORT"
+    }, {
+      "id" : "_L6x5oFNpEfGsHc0EuQntrg",
+      "name" : "DB_NAME"
+    }, {
+      "id" : "_L6x5oVNpEfGsHc0EuQntrg",
+      "name" : "DB_USER"
+    }, {
+      "id" : "_L6x5olNpEfGsHc0EuQntrg",
+      "name" : "DB_PASSWORD"
+    }, {
+      "id" : "_L6x5o1NpEfGsHc0EuQntrg",
+      "name" : "PIPELINE_NAME"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_cWWo8FMhEfG4p8ocPLEfRQ",
+    "parameterList" : [ {
+      "id" : "_L6x5pFNpEfGsHc0EuQntrg",
+      "name" : "ENV_NAME"
+    }, {
+      "id" : "_L6x5pVNpEfGsHc0EuQntrg",
+      "name" : "BASE_FILE_PATH"
+    }, {
+      "id" : "_L6x5plNpEfGsHc0EuQntrg",
+      "name" : "DB_HOST"
+    }, {
+      "id" : "_L6x5p1NpEfGsHc0EuQntrg",
+      "name" : "DB_PORT"
+    }, {
+      "id" : "_L6x5qFNpEfGsHc0EuQntrg",
+      "name" : "DB_NAME"
+    }, {
+      "id" : "_L6x5qVNpEfGsHc0EuQntrg",
+      "name" : "DB_USER"
+    }, {
+      "id" : "_L6x5qlNpEfGsHc0EuQntrg",
+      "name" : "DB_PASSWORD"
+    }, {
+      "id" : "_L6x5q1NpEfGsHc0EuQntrg",
+      "name" : "PIPELINE_NAME"
+    } ]
+  } ]
+}

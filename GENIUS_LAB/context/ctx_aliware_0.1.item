@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_DJ0kgF9VEfGH9_Erk-UoRw" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_DJ0kgV9VEfGH9_Erk-UoRw" comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev"/>
+    <contextParameter xmi:id="_DJ0kgl9VEfGH9_Erk-UoRw" comment="" name="BASE_FILE_PATH" prompt="BASE_FILE_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Tmp\CAP_Genius_Lab\Fuente"/>
+    <contextParameter xmi:id="_DJ0kg19VEfGH9_Erk-UoRw" comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="209.50.254.159"/>
+    <contextParameter xmi:id="_DJ0khF9VEfGH9_Erk-UoRw" comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_DJ0khV9VEfGH9_Erk-UoRw" comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DSADEV"/>
+    <contextParameter xmi:id="_DJ0khl9VEfGH9_Erk-UoRw" comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="usr_acme"/>
+    <contextParameter xmi:id="_DJ0kh19VEfGH9_Erk-UoRw" comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="acme123"/>
+    <contextParameter xmi:id="_DJ0kiF9VEfGH9_Erk-UoRw" comment="" name="PIPELINE_NAME" prompt="PIPELINE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lab06_olist_pipeline"/>
+    <contextParameter xmi:id="_HjZkUF-LEfGH9_Erk-UoRw" comment="" name="run_id" prompt="run_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="timestamp"/>
+    <contextParameter xmi:id="_HjZkUV-LEfGH9_Erk-UoRw" comment="" name="batch_size" prompt="batch_size?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10000"/>
+    <contextParameter xmi:id="_chX20F_-EfGH9_Erk-UoRw" comment="" name="FECHAINI" prompt="FECHAINI?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_DJ0kiV9VEfGH9_Erk-UoRw" confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter xmi:id="_DJ0kil9VEfGH9_Erk-UoRw" comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="prod"/>
+    <contextParameter xmi:id="_DJ0ki19VEfGH9_Erk-UoRw" comment="" name="BASE_FILE_PATH" prompt="BASE_FILE_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Tmp\CAP_Genius_Lab\Fuente"/>
+    <contextParameter xmi:id="_DJ0kjF9VEfGH9_Erk-UoRw" comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="209.50.254.159"/>
+    <contextParameter xmi:id="_DJ0kjV9VEfGH9_Erk-UoRw" comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_DJ0kjl9VEfGH9_Erk-UoRw" comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_DJ0kj19VEfGH9_Erk-UoRw" comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="usr_acme"/>
+    <contextParameter xmi:id="_DJ0kkF9VEfGH9_Erk-UoRw" comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="acme123"/>
+    <contextParameter xmi:id="_DJ0kkV9VEfGH9_Erk-UoRw" comment="" name="PIPELINE_NAME" prompt="PIPELINE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lab06_olist_pipeline"/>
+    <contextParameter xmi:id="_HjZkUl-LEfGH9_Erk-UoRw" comment="" name="run_id" prompt="run_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HjZkU1-LEfGH9_Erk-UoRw" comment="" name="batch_size" prompt="batch_size?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_chX20V_-EfGH9_Erk-UoRw" comment="" name="FECHAINI" prompt="FECHAINI?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_DJ0kkl9VEfGH9_Erk-UoRw" confirmationNeeded="false" hide="false" name="QA">
+    <contextParameter xmi:id="_DJ0kk19VEfGH9_Erk-UoRw" comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="qa"/>
+    <contextParameter xmi:id="_DJ0klF9VEfGH9_Erk-UoRw" comment="" name="BASE_FILE_PATH" prompt="BASE_FILE_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Tmp\CAP_Genius_Lab\Fuente"/>
+    <contextParameter xmi:id="_DJ0klV9VEfGH9_Erk-UoRw" comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="209.50.254.159"/>
+    <contextParameter xmi:id="_DJ0kll9VEfGH9_Erk-UoRw" comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_DJ0kl19VEfGH9_Erk-UoRw" comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_DJ0kmF9VEfGH9_Erk-UoRw" comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="usr_acme"/>
+    <contextParameter xmi:id="_DJ0kmV9VEfGH9_Erk-UoRw" comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="acme123"/>
+    <contextParameter xmi:id="_DJ0kml9VEfGH9_Erk-UoRw" comment="" name="PIPELINE_NAME" prompt="PIPELINE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lab06_olist_pipeline"/>
+    <contextParameter xmi:id="_HjZkVF-LEfGH9_Erk-UoRw" comment="" name="run_id" prompt="run_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_HjZkVV-LEfGH9_Erk-UoRw" comment="" name="batch_size" prompt="batch_size?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_chX20l_-EfGH9_Erk-UoRw" comment="" name="FECHAINI" prompt="FECHAINI?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>
