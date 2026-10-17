@@ -1,34 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="QA">
-    <contextParameter comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="qa" internalId="_L6xSkFNpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="BASE_FILE_PATH" prompt="BASE_FILE_PATH?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="C:/Tmp/QA/olist/" internalId="_L6xSkVNpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="aliware-qa.invalid" internalId="_L6xSklNpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="3306" internalId="_L6xSk1NpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="staging_qa" internalId="_L6xSlFNpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="qa_user" internalId="_L6xSlVNpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_Password" value="" internalId="_L6xSllNpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="PIPELINE_NAME" prompt="PIPELINE_NAME?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="lab06_olist_pipeline" internalId="_L6xSl1NpEfGsHc0EuQntrg"/>
+    <contextParameter comment="" name="BASE_FILE_PATH" prompt="BASE_FILE_PATH?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="C:\Tmp\CAP_Genius_Lab\Fuente" internalId="_VVJZcMnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="batch_size" prompt="batch_size?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="" internalId="_VVJZccnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="209.50.245.36" internalId="_VVJZcsnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="" internalId="_VVJZc8nlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="CambiarEsta#2026" internalId="_VVJZdMnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="3306" internalId="_VVJZdcnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="dev_genius" internalId="_VVJZdsnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="qa" internalId="_VVJZd8nlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="FECHAINI" prompt="FECHAINI?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="" internalId="_VVJZeMnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="PIPELINE_NAME" prompt="PIPELINE_NAME?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="lab06_olist_pipeline" internalId="_VVJZecnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="run_id" prompt="run_id?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="" internalId="_VVJZesnlEfGXvNlWOMHp2g"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="PROD">
-    <contextParameter comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="prod" internalId="_L6xSmFNpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="BASE_FILE_PATH" prompt="BASE_FILE_PATH?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="C:/Tmp/PROD/olist/" internalId="_L6xSmVNpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="aliware-prod.invalid" internalId="_L6xSmlNpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="3306" internalId="_L6xSm1NpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="staging_prod" internalId="_L6x5oFNpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="prod_user" internalId="_L6x5oVNpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_Password" value="" internalId="_L6x5olNpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="PIPELINE_NAME" prompt="PIPELINE_NAME?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="lab06_olist_pipeline" internalId="_L6x5o1NpEfGsHc0EuQntrg"/>
+    <contextParameter comment="" name="BASE_FILE_PATH" prompt="BASE_FILE_PATH?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="C:\Tmp\CAP_Genius_Lab\Fuente" internalId="_VVJZe8nlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="batch_size" prompt="batch_size?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="" internalId="_VVJZfMnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="209.50.245.36" internalId="_VVJZfcnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="" internalId="_VVJZfsnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="CambiarEsta#2026" internalId="_VVJZf8nlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="3306" internalId="_VVJZgMnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="dev_genius" internalId="_VVJZgcnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="prod" internalId="_VVJZgsnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="FECHAINI" prompt="FECHAINI?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="" internalId="_VVJZg8nlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="PIPELINE_NAME" prompt="PIPELINE_NAME?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="lab06_olist_pipeline" internalId="_VVJZhMnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="run_id" prompt="run_id?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="" internalId="_VVJZhcnlEfGXvNlWOMHp2g"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="dev" internalId="_L6x5pFNpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="BASE_FILE_PATH" prompt="BASE_FILE_PATH?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="C:/Tmp/CAP_Genius_Lab/Fuente/" internalId="_L6x5pVNpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="209.50.254.159" internalId="_L6x5plNpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="3306" internalId="_L6x5p1NpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="DSADEV" internalId="_L6x5qFNpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="usr_acme" internalId="_L6x5qVNpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_Password" value="" internalId="_L6x5qlNpEfGsHc0EuQntrg"/>
-    <contextParameter comment="" name="PIPELINE_NAME" prompt="PIPELINE_NAME?" promptNeeded="false" repositoryContextId="_cWWo8FMhEfG4p8ocPLEfRQ" type="id_String" value="lab06_olist_pipeline" internalId="_L6x5q1NpEfGsHc0EuQntrg"/>
+    <contextParameter comment="" name="BASE_FILE_PATH" prompt="BASE_FILE_PATH?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="C:\Tmp\CAP_Genius_Lab\Fuente\" internalId="_VVJZhsnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="batch_size" prompt="batch_size?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="10000" internalId="_VVJZh8nlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="209.50.245.36" internalId="_VVJZiMnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="DSADEV" internalId="_VVJZicnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="CambiarEsta#2026" internalId="_VVJZisnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="3306" internalId="_VVJZi8nlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="dev_genius" internalId="_VVJZjMnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="dev" internalId="_VVJZjcnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="FECHAINI" prompt="FECHAINI?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="" internalId="_VVJZjsnlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="PIPELINE_NAME" prompt="PIPELINE_NAME?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="lab06_olist_pipeline" internalId="_VVJZj8nlEfGXvNlWOMHp2g"/>
+    <contextParameter comment="" name="run_id" prompt="run_id?" promptNeeded="false" repositoryContextId="_DJU1QF9VEfGH9_Erk-UoRw" type="id_String" value="timestamp" internalId="_VVJZkMnlEfGXvNlWOMHp2g"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -73,7 +82,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:YK7ZX6731qXtTRXdjgIo9x5ByhQczb/DOvfJaQk+" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -88,7 +97,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Program Files (x86)/Talend-Studio/studio/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Talend/8.0.1/studio/workspace/.metadata&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
@@ -108,7 +117,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:OAv5UfCy1i3ohpysVLe3LFuVl8sKiC9OoNdJNVhz" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -130,16 +139,6 @@
   </parameters>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="240" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tFileInputDelimited" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="File/Input" show="false"/>
-    <elementParameter field="CHECK" name="START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tFileInputDelimited" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_9kEVkFMiEfG4p8ocPLEfRQ - metadata" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
@@ -269,7 +268,7 @@
       <column comment="" key="false" length="60" name="load_source" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="60" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out_product">
         <mapperTableEntries name="product_id" expression="row1.product_id " type="id_String"/>
@@ -304,9 +303,9 @@
     <elementParameter field="TEXT" name="PORT" value="context.DB_PORT"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.DB_NAME"/>
     <elementParameter field="TEXT" name="USER" value="context.DB_USER"/>
-    <elementParameter field="PASSWORD" name="PASS" value=""/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.DB_PASSWORD"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;dim_product_jl&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
@@ -369,6 +368,7 @@
     <elementParameter field="CHECK" name="ON_DUPLICATE_KEY_UPDATE" value="false"/>
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_1">
       <column comment="" key="false" length="40" name="product_id" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="60" name="category_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -402,7 +402,7 @@
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;255;255" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="47;47;47"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="93;174;241" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="93;174;241"/>
   </subjob>
 </talendfile:ProcessType>
