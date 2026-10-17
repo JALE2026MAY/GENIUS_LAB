@@ -1,0 +1,29 @@
+{
+  "itemId" : "_0-EDwFJLEfGV6avP-erg1g",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_xGPoMFJMEfGV6avP-erg1g",
+    "parameterList" : [ {
+      "id" : "_xGe4wVJMEfGV6avP-erg1g",
+      "name" : "FILE_OLIST_ORDERS"
+    }, {
+      "id" : "_xGe4wlJMEfGV6avP-erg1g",
+      "name" : "DB_HOST"
+    }, {
+      "id" : "_xGe4w1JMEfGV6avP-erg1g",
+      "name" : "DB_PORT"
+    }, {
+      "id" : "_xGe4xFJMEfGV6avP-erg1g",
+      "name" : "DB_NAME"
+    }, {
+      "id" : "_xGe4xVJMEfGV6avP-erg1g",
+      "name" : "DB_USER"
+    }, {
+      "id" : "_xGe4xlJMEfGV6avP-erg1g",
+      "name" : "DB_PASSWORD"
+    }, {
+      "id" : "_xGe4x1JMEfGV6avP-erg1g",
+      "name" : "LOAD_SOURCE_TAG"
+    } ]
+  } ]
+}
